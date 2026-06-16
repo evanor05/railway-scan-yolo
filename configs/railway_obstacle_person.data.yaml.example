@@ -1,0 +1,10 @@
+path: ./datasets/railway_obstacle_person_yolo
+train: images/train
+val: images/val
+
+names:
+  0: animal
+  1: motorcycle
+  2: person
+  3: rock
+  4: vehicle

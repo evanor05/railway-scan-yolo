@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# YOLO / ML artifacts
+datasets/
+runs/
+weights/*.pt
+weights/*.onnx
+weights/*.engine
+weights/*.torchscript
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.cache
+
+# Large/reference materials kept locally
+literature/
+railway_manual_inspection_literature/
+labelImg-master/
+archive/
+*.zip
+*.rar
+*.7z
+*.pdf
+
+# Keep only curated public samples in Git
+test_images/*
+!test_images/samples/
+!test_images/samples/**
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# ROS 2 build outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Local secrets/config
+.env
+*.local
